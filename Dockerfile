@@ -7,7 +7,8 @@ RUN apt-get -y update && apt-get install -y \
   gnuplot \
   sudo \
   curl \
-  java-common
+  java-common \
+  git
 
 # Alternatives
 RUN update-alternatives --remove-all gcc || true
